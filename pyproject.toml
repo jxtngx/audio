@@ -67,7 +67,7 @@ disable_error_code = "attr-defined"
 # style choices
 warn_no_return = "False"
 
-# do not add type hints to lightnig_pod/cli/seed/ or core.module
+# do not add type hints to lightnig_Lab/cli/seed/ or core.module
 # because lightning already defines types
 [[tool.mypy.overrides]]
 module = [
