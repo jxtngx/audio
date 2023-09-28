@@ -1,4 +1,4 @@
-# Lightning Lab
+# Audio Lab
 
 ## Overview
 
