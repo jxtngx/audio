@@ -6,25 +6,25 @@ Lightning Lab is a public template for artificial intelligence and machine learn
 
 The recommended way for Lightning Lab users to create new repos is with the [use this template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) button.
 
-An adaptation can be found at [lightning-vision](https://github.com/JustinGoheen/audio-lab-vision).
+An adaptation can be found at [lightning-vision](https://github.com/JustinGoheen/audiolab-vision).
 
 ## The Structure
 
 ### Source Module
 
-`audio_lab.core` should contain code for the Lightning Module and Trainer.
+`audiolab.core` should contain code for the Lightning Module and Trainer.
 
-`audio_lab.components` should contain experiment utilities grouped by purpose for cohesion.
+`audiolab.components` should contain experiment utilities grouped by purpose for cohesion.
 
-`audio_lab.pipeline` should contain code for data acquistion and preprocessing, and building a TorchDataset and LightningDataModule.
+`audiolab.pipeline` should contain code for data acquistion and preprocessing, and building a TorchDataset and LightningDataModule.
 
-`audio_lab.api` should contain code for model serving APIs built with [FastAPI](https://fastapi.tiangolo.com/project-generation/#machine-learning-models-with-spacy-and-fastapi).
+`audiolab.api` should contain code for model serving APIs built with [FastAPI](https://fastapi.tiangolo.com/project-generation/#machine-learning-models-with-spacy-and-fastapi).
 
-`audio_lab.cli` should contain code for the command line interface built with [Click](https://click.palletsprojects.com/en/8.1.x/) and [Rich](https://rich.readthedocs.io/en/stable/).
+`audiolab.cli` should contain code for the command line interface built with [Click](https://click.palletsprojects.com/en/8.1.x/) and [Rich](https://rich.readthedocs.io/en/stable/).
 
-`audio_lab.pages` should contain code for data apps built with streamlit, dash, or reflex. the `pages` module naming convention is borrowed from React concepts.
+`audiolab.pages` should contain code for data apps built with streamlit, dash, or reflex. the `pages` module naming convention is borrowed from React concepts.
 
-`audio_lab.conf.py` can assist with project, trainer, and sweep configurations.
+`audiolab.conf.py` can assist with project, trainer, and sweep configurations.
 
 ### Project Root
 

@@ -14,7 +14,7 @@
 
 import torch
 
-from audio_lab.core.module import PodModule
+from audiolab.core.module import PodModule
 
 
 def test_module_not_abstract():
