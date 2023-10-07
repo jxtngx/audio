@@ -22,7 +22,7 @@ The recommended way for Audio Lab users to create new repos is with the [use thi
 
 `audiolab.pages` should contain code for data apps built with streamlit.
 
-`audiolab.conf` can assist with project, trainer, and sweep configurations.
+`audiolab.config` can assist with project, trainer, and sweep configurations.
 
 ### Project Root
 
