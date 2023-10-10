@@ -14,7 +14,7 @@ The recommended way for Audio Lab users to create new repos is with the [use thi
 
 `audiolab.pipeline` should contain code for data acquistion and preprocessing, and building a TorchDataset and LightningDataModule.
 
-`audiolab.api` should contain code for model serving APIs built with [FastAPI](https://fastapi.tiangolo.com/project-generation/#machine-learning-models-with-spacy-and-fastapi).
+`audiolab.serve` should contain code for model serving APIs built with [FastAPI](https://fastapi.tiangolo.com/project-generation/#machine-learning-models-with-spacy-and-fastapi).
 
 `audiolab.cli` should contain code for the command line interface built with [Typer](https://typer.tiangolo.com/)and [Rich](https://rich.readthedocs.io/en/stable/).
 
